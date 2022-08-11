@@ -1,0 +1,115 @@
+body{
+    background-color:rgba(24, 111, 224, 0.575);
+    margin: 0;
+    font-family: monospace;
+    
+}   
+
+header{
+    background-color:black;
+    color: white;
+    padding: 2rem;
+    
+}
+
+nav{
+    background-color:rgb(0, 91, 209);
+    padding: 1rem;
+}
+
+
+li a:hover{
+    background-color:rgb(42, 117, 216);
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+ul li{
+    padding: 0.5rem;
+    list-style: none;
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+}
+
+div{
+    background-color: white;
+    padding: 0.1px;
+    padding-bottom: 30px;
+}
+
+.container{
+    margin: auto;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.container h3{
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.container input{
+    margin-bottom: 0.5rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.container input.haver{
+    background-color: black;
+}
+
+.container button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.container button.haver{
+    background-color: rgb(0, 0, 0);    
+}
+
+footer{
+    border-top: 3px solid black;
+    color: rgb(3, 64, 145);
+}
+
+th{
+    background-color:rgb(5, 77, 172);
+    border-radius: 30px;
+    color: #fff;
+    padding: 1rem;
+}
+
+td{
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    text-align: center;
+}
